@@ -43,7 +43,6 @@ int main()
     int arr[] = {15,11,20,14,12,13,17,16,18,19};
     int n = sizeof(arr)/sizeof(arr[0]);
     selectionSort(arr, n);
-    printf("Sorted array: \n");
     printArray(arr, n);
     return 0;
 }
