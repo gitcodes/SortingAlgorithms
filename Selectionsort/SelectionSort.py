@@ -16,7 +16,7 @@ def selection_sort(collection):
                 least = k
         collection[least], collection[i] = (
             collection[i], collection[least]
-        )
+        )        
     return collection
 
 
