@@ -10,14 +10,13 @@ var sortedAboveIndex = array.count
 
 for i in 0 ..< sortedAboveIndex - 1 {
 	var minindex = i
-	for j in (i + 1) ..< sortedAboveIndex {
-    
+	for j in (i + 1) ..< sortedAboveIndex {    
 		if (sortedArray[j] < sortedArray[minindex]) {
-         minindex = j
+                   minindex = j
 		}
 			     
-    }
-sortedArray.swapAt(minindex,i)
+        }
+        sortedArray.swapAt(minindex,i)
 }
 
 print(sortedArray)
