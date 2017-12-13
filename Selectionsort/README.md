@@ -11,19 +11,19 @@ In every iteration of selection sort, the minimum element (considering ascending
 <pre><code>
 array[] = [15,11,20,14,12]
 
-// Find the minimum element in arr[0...4]
+// Find the minimum element in array[0...4]
 // and place it at beginning
 [11,15,20,14,12]
 
-// Find the minimum element in arr[1...4]
-// and place it at beginning of arr[1...4]
+// Find the minimum element in array[1...4]
+// and place it at beginning of array[1...4]
 [11,12,20,14,15]
 
-// Find the minimum element in arr[2...4]
-// and place it at beginning of arr[2...4]
+// Find the minimum element in array[2...4]
+// and place it at beginning of array[2...4]
 [11,12,14,20,15]
 
-// Find the minimum element in arr[3...4]
-// and place it at beginning of arr[3...4]
+// Find the minimum element in array[3...4]
+// and place it at beginning of array[3...4]
 [11,12,14,15,20] 
 </code></pre>
