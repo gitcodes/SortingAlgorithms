@@ -9,7 +9,7 @@ from __future__ import print_function
 def selection_sort(collection):
 
     length = len(collection)
-    for i in range(length):
+    for i in range(length - 1):
         least = i
         for k in range(i + 1, length):
             if collection[k] < collection[least]:
