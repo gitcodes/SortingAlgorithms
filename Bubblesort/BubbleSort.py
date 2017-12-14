@@ -3,10 +3,6 @@
 # Bubble Sort In python
 #
 #---------------------------------------------------
-
-from __future__ import print_function
-
-
 def bubble_sort(collection):
     length = len(collection)
     for i in range(length-1, -1, -1):#range(length-1, -1, -1)
